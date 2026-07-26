@@ -15,8 +15,7 @@ import {
 function App() {
   return (
     <Text style={styles.title}>
-     main branch 
-     second chnahes
+    this main code 111111111111111111111
     </Text>
 
   )
