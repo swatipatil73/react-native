@@ -13,14 +13,12 @@ import {
 } from 'react-native-safe-area-context';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
-  );
+    <Text style={styles.title}>
+     main branch
+    </Text>
+
+  )
 }
 
 function AppContent() {
@@ -35,6 +33,7 @@ function AppContent() {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
