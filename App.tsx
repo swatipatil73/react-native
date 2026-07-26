@@ -15,7 +15,8 @@ import {
 function App() {
   return (
     <Text style={styles.title}>
-     main branch
+     main branch 
+     second chnahes
     </Text>
 
   )
