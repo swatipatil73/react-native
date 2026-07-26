@@ -14,22 +14,11 @@ import {
 
 function App() {
   return (
-    <View style={styles.container}>
+    <Text style={styles.title}>
+      Login Page
+    </Text>
 
-      <StatusBar barStyle="dark-content" />
-
-      {/* Login title added here */}
-      <Text style={styles.title}>
-        Login Page
-      </Text>
-
-      <TextInput
-        style={styles.input}
-        placeholder="Enter Email"
-      />
-
-    </View>
-  );
+  )
 }
 
 function AppContent() {
