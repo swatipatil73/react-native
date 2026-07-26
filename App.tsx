@@ -13,13 +13,22 @@ import {
 } from 'react-native-safe-area-context';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
+    <View style={styles.container}>
+
+      <StatusBar barStyle="dark-content" />
+
+      {/* Login title added here */}
+      <Text style={styles.title}>
+        Login Page
+      </Text>
+
+      <TextInput
+        style={styles.input}
+        placeholder="Enter Email"
+      />
+
+    </View>
   );
 }
 
@@ -35,6 +44,7 @@ function AppContent() {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
