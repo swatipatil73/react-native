@@ -16,9 +16,7 @@ function App() {
   return (
     <Text style={styles.title}>
 
-      Login Page
-
-     main branch
+      first line
 
     </Text>
 
